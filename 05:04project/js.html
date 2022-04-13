@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    const getTodos = (callback) => {
+      const rq = new XMLHttpRequest();
+      rq.addEventListener("readystatechange", () => {
+        if (rq.readyState === 4 && rq.status === 200) {
+          callback(undefined, rq.responseText);
+        } else if (rq.readyState == 4) {
+          callback("KHong lay duoc du lieu tu sv", undefined);
+        }
+      });
+      rq.open("GET", "https://jsonplaceholder.typicode.com/posts");
+      rq.send();
+      if (rq.readyState == 4) {
+        console.log(rq.responseText);
+      }
+
+      console.log("cong viec 3 ");
+    };
+
+    getTodos();
+  </script>
+</html>
