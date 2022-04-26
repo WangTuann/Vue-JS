@@ -14,9 +14,9 @@ export default {
   data: () => {
     return {
       singleProjectHeader: {
-        singleProjectTitle: "Project Management UI",
+        singleProjectTitle: "Hệ thống quản lý văn bản hành chính",
         singleProjectDate: "Jul 26, 2021",
-        singleProjectTag: "UI / Frontend",
+        singleProjectTag: "Văn bản hành chính",
       },
       projectImages: [
         {
@@ -36,125 +36,51 @@ export default {
         },
       ],
       projectInfo: {
-        clientHeading: "About Client",
+        clientHeading: "THÔNG TIN VĂN BẢN",
         companyInfos: [
           {
             id: 1,
-            title: "Name",
-            details: "Company Ltd",
+            title: "Cơ quan ban hành",
+            details: "Bộ giáo dục và đào tạo",
           },
           {
             id: 2,
-            title: "Services",
-            details: "UI Design & Frontend Development",
+            title: "Loại văn bản",
+            details: "Thông tư",
           },
           {
             id: 3,
-            title: "Website",
-            details: "https://company.com",
+            title: "Ngày ban hành",
+            details: "20/05/2022",
           },
           {
             id: 4,
-            title: "Phone",
-            details: "555 8888 888",
+            title: "Hiệu lực",
+            details: "Còn hiệu lực",
           },
         ],
-        objectivesHeading: "Objective",
-        objectivesDetails:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+
         technologies: [
           {
-            title: "Tools & Technologies",
-            techs: [
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "Vue.js",
-              "TailwindCSS",
-              "AdobeXD",
-            ],
+            title: "Văn bản liên quan",
+            techs: ["Thông tư", "Nghị định", "Nghị quyết"],
           },
         ],
-        projectDetailsHeading: "Challenge",
+        projectDetailsHeading: "Tóm tắt nội dung",
         projectDetails: [
           {
             id: 1,
-            details: "HELLO",
+            details: "Thông tư 05/2022/TT-GDDT",
           },
           {
             id: 2,
             details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-          },
-          {
-            id: 3,
-            details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-          },
-          {
-            id: 4,
-            details:
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
-          },
-        ],
-        socialSharingsHeading: "Share This",
-        socialSharings: [
-          {
-            id: 1,
-            name: "Twitter",
-            icon: "twitter",
-            url: "https://twitter.com/realstoman",
-          },
-          {
-            id: 2,
-            name: "Instagram",
-            icon: "instagram",
-            url: "https://instagram.com/realstoman",
-          },
-          {
-            id: 3,
-            name: "Facebook",
-            icon: "facebook",
-            url: "https://facebook.com/",
-          },
-          {
-            id: 4,
-            name: "LinkedIn",
-            icon: "linkedin",
-            url: "https://linkedin.com/",
-          },
-          {
-            id: 5,
-            name: "Youtube",
-            icon: "youtube",
-            url: "https://www.youtube.com/c/StomanStudio",
+              "Thông tư sửa đổi, bổ sung một số điều của Quy định tiêu chuẩn, quy trình biên soạn, chỉnh sửa sách giáo khoa; tiêu chuẩn, tổ chức cá nhân biên soạn sách giáo khoa; tổ chức và hoạt động của Hội đồng quốc gia thẩm định sách giáo khoa ban hành kèm theo Thông tư số 33/2017/TT-BGDĐT ngày 22 tháng 12 năm 2017 của Bộ trưởng Bộ Giáo dục và Đào tạo",
           },
         ],
       },
       relatedProject: {
-        relatedProjectsHeading: "Related Projects",
-        relatedProjects: [
-          {
-            id: 1,
-            title: "Mobile UI",
-            img: require("@/assets/images/mobile-project-1.jpg"),
-          },
-          {
-            id: 2,
-            title: "Web Application",
-            img: require("@/assets/images/web-project-1.jpg"),
-          },
-          {
-            id: 3,
-            title: "UI Design",
-            img: require("@/assets/images/ui-project-2.jpg"),
-          },
-          {
-            id: 4,
-            title: "Kabul Mobile App UI",
-            img: require("@/assets/images/mobile-project-2.jpg"),
-          },
-        ],
+        relatedProjects: [],
       },
     };
   },

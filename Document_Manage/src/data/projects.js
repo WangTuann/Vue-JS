@@ -4,19 +4,19 @@
 const projects = [
   {
     id: 1,
-    title: "Văn bản hành chính",
+    title: "Trường Đại học Đà Lạt",
     category: "Văn bản",
   },
   {
     id: 2,
-    title: "Phoenix Digital Agency",
-    category: "Mobile Application",
+    title: "Văn bản hành chính",
+    category: "Văn bản",
     img: require("@/assets/images/mobile-project-2.jpg"),
   },
   {
     id: 3,
-    title: "Project Management UI",
-    category: "UI/UX Design",
+    title: "Văn bản hành chính",
+    category: "Văn bản",
     img: require("@/assets/images/ui-project-1.jpg"),
   },
   {
@@ -27,14 +27,14 @@ const projects = [
   },
   {
     id: 5,
-    title: "React Social App",
-    category: "Mobile Application",
+    title: "Văn bản hành chính",
+    category: "Văn bản",
     img: require("@/assets/images/mobile-project-1.jpg"),
   },
   {
     id: 6,
-    title: "Apple Design System",
-    category: "Web Application",
+    title: "Văn bản hành chính",
+    category: "Văn bản",
     img: require("@/assets/images/web-project-1.jpg"),
   },
 ];
